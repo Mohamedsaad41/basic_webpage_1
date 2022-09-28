@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+
+    height: 100vh;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+   font-size: 40px;
+
+}
+/* BOX 1 */
+.box-1{
+    height: 33vh;
+    padding: 10px 10px 10px 20px ;
+
+}
+.heading{
+    margin-bottom: 40px;
+    color: #064072;
+    font-size: 60px;
+}
+.subpara-1{
+    margin-bottom: 35px;
+    color: forestgreen;
+}
+.subpara-2{
+    margin-bottom: 35px;
+    color: grey;
+}
+.subpara-3{
+    margin-bottom: 35px;
+    color: grey;
+}
+
+/* BOX 2 */
+.box-2{
+   
+    height: 34vh;
+    background-color:#2bb3b1;
+    padding: 10px 10px 10px 20px ;
+    color: white;
+}
+.subs{
+    margin: 20px 0 40px 0;
+ font-size: 60px;
+}
+
+.subpara-4{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 75px;
+
+}
+
+.Amount{
+    font-size: 60px;
+   
+    
+}
+.period{
+    font-size: 40px;
+    font-weight: lighter;
+    color: rgba(38, 32, 32, 0.523);
+    position: absolute;
+    top: 825px;
+    left: 120px;
+
+
+    
+   
+}
+.button{
+    font-size: 40px;
+height: 60px;
+width: 500px;
+background-color: rgb(186, 217, 123);
+
+margin-top: 75px;
+border-radius: 15px;
+}
+.offer_availed{
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+/* BOX 3 */
+.box-3{
+    height: 33vh;
+    background-color:#48bfbd;
+    padding: 10px 10px 10px 20px ;
+    color: white;
+}
+.why{
+    margin: 20px 0 40px 0;
+ font-size: 60px;
+}
+.offer_availed1{
+    margin: 20px 0 40px 0;
+    line-height: 60px;
+}
+

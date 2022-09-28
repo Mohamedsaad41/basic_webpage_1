@@ -1,0 +1,148 @@
+Html
+.<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>First web Page</title>
+    
+</head>
+<body>
+   <div class="container">
+    <div class="box-1">
+        <h2 class="heading">Join our Comunity</h2>
+        <P class="subpara-1">30-day, hassle free money back guarantee</P>
+        <p class="subpara-2">Gain access to our full library of tutorials along with expert code review </p>
+            <p class="subpara-3"> Perfect for any developers who are serious about honing their skills
+       </P>
+    </div>
+    <div class="box-2">
+        <h1 class="subs">Monthly subscription</h1>
+        <div class="wrap">
+        <p class="Amount">$29</p> <p class="duration">Per month</p></div>
+        <p class="offer_availed">Full access for less than $1 a day</p>
+        <button class="button">Sign Up</button>
+    </div>
+    <div class="box-3">
+        <h1 class="why">Why Us</h1>
+
+
+        <p class="offer_availed1">Tutorials by industry experts <br>
+        Peer and expert code review <br>
+    Coding exercises <br>
+Access to our GitHub repos <br>
+Community forum <br>
+Flashcard decks <br>
+New videos every week</p>
+    </div>
+
+   </div>
+</body>
+</html>
+
+
+
+
+
+
+CSSSSSSSSS
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+
+    height: 100vh;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+.box-1{
+    height: 33vh;
+    padding: 10px 10px 20px 10px ;
+    font-size: 50px;
+}
+.heading{
+    color: aquamarine;
+    font-size: 70px;
+    margin: 20px 0 20px 0;
+  
+}
+.subpara-1{
+    color: rgb(175, 175, 1);
+    margin: 20px 0 20px 0;
+}
+.subpara-2{
+    color: rgb(0, 0, 0);
+    margin: 20px 0 20px 0;
+}
+.subpara-3{
+    color: rgb(0, 0, 0);
+    margin: 20px 0 20px 0;
+}
+.box-2{
+    height: 34vh;
+    background-color:#2bb3b1;
+    padding: 10px 10px 20px 10px ;
+    color: white;
+}
+.box-3{
+    height: 33vh;
+    background-color:#48bfbd;
+    padding: 10px 10px 20px 10px ;
+    color: white;
+}
+.subs{
+    font-size: 80px;
+    margin: 20px 0 20px 0;
+}
+.wrap
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0 20px 0;
+    
+}
+.Amount{
+    font-size: 50px;
+   
+}
+.duration{
+    color: lightgray;
+    font-weight: lighter;
+    font-size: 50px;
+}
+.offer_availed{
+    font-size: 50px;
+
+}
+.button{
+    background: hsl(71, 73%, 54%);
+    color: #F9F9F9;
+    height: 70px;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+}
+
+.why{
+    font-size: 80px;
+    color: white;
+    margin: 20px 0 20px 0;
+
+}
+.offer_availed1{color: white;
+    margin: 20px 0 20px 0;
+
+    font-size: 50px;
+}
